@@ -1,0 +1,20 @@
+body{ font-weight: bold;
+	color: navy;
+	font-family: sans-serif;
+	text-align: center;
+	}
+
+#cloudy { background: cloudy.png;
+}
+
+#index { background: map.png;}
+
+#rainy { background: rainy.png;}
+
+#snowy { background: snowy.png;}
+
+#sunny {background: sunny.png;}
+
+#foggy {background: silver;}
+
+#otherweather {background: pink;}
