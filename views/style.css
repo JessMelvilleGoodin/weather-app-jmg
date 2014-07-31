@@ -13,9 +13,9 @@ background-image: url('cloudy.png');
 
 #rainy { background: url('rainy.png');}
 
-#snowy { background: ('snowy.png');}
+#snowy { background: url('snowy.png');}
 
-#sunny {background: ('sunny.png');}
+#sunny {background: url('sunny.png');}
 
 #foggy {background: silver;}
 
