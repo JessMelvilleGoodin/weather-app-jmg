@@ -4,16 +4,18 @@ body{ font-weight: bold;
 	text-align: center;
 	}
 
-#cloudy { background: cloudy.png;
+#cloudy { 
+background-color: blue;
+background-image: url('cloudy.png');
 }
 
-#index { background: map.png;}
+#index { background: url:('map.png');}
 
-#rainy { background: rainy.png;}
+#rainy { background: url('rainy.png');}
 
-#snowy { background: snowy.png;}
+#snowy { background: ('snowy.png');}
 
-#sunny {background: sunny.png;}
+#sunny {background: ('sunny.png');}
 
 #foggy {background: silver;}
 
