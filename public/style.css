@@ -2,21 +2,46 @@ body{ font-weight: bold;
 	color: navy;
 	font-family: sans-serif;
 	text-align: center;
+	
 	}
+#text {padding-top: 250px;}
+
 
 #cloudy {
-background-color: blue;
+height: 645px;
+width: 1175px;
+border: navy solid 20px;
 background-image: url(cloudy.png);
 }
 
-#index { background: url(map.png);}
+#index { 
+height: 645px;
+width: 1175px;
+border: navy solid 20px;
+background: url(map.png);}
 
-#rainy { background: url(rainy.png);}
+#rainy { height: 645px;
+width: 1175px;
+border: navy solid 20px;
+background: url(rainy.png);}
 
-#snowy { background: url(snowy.png);}
+#snowy { 
+height: 645px;
+width: 1175px;
+border: navy solid 20px;
+background: url(snowy.png);}
 
-#sunny {background: url(sunny.png);}
+#sunny {height: 645px;
+width: 1175px;
+border: navy solid 20px;
+background: url(sunny.png);}
 
-#foggy {background: silver;}
+#foggy {height: 645px;
+width: 1175px;
+border: navy solid 20px;
+background: silver;}
 
-#otherweather {background: pink;}
+#otherweather {height: 645px;
+width: 1175px;
+border: navy solid 20px;
+background: pink;}
