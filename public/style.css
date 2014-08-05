@@ -4,7 +4,7 @@ body{ font-weight: bold;
 	text-align: center;
 	
 	}
-#text {padding-top: 250px;}
+#text {padding-top: 205px;}
 
 
 #cloudy {
@@ -23,7 +23,10 @@ background: url(map.png);}
 #rainy { height: 645px;
 width: 1175px;
 border: navy solid 20px;
-background: url(rainy.png);}
+background: url(rainy.png);
+background-repeat: no-repeat;
+border: navy solid 20px;
+}
 
 #snowy { 
 height: 645px;
@@ -39,9 +42,9 @@ background: url(sunny.png);}
 #foggy {height: 645px;
 width: 1175px;
 border: navy solid 20px;
-background: silver;}
+background: url(foggy.png);}
 
 #otherweather {height: 645px;
 width: 1175px;
 border: navy solid 20px;
-background: pink;}
+background: url(weathermash.png);}

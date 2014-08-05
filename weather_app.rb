@@ -13,6 +13,12 @@ client.lookup_by_location(location).condition['temp']
 
 end
 
+def get_city(location)
+client = Weatherman::Client.new
+client.lookup_by_location(location).location['city']
+
+end
+
 get '/' do
 	"#{@message}"
 	erb :index
@@ -21,7 +27,9 @@ end
 post '/weather' do
 	@post = params[:post]['location']
 	@weather = get_weather(@post).downcase
-		@temp = (get_temp(@post)*1.8+32).to_s
+		@temp = (get_temp(@post)*1.8+32).round.to_s
+		@city = get_city(@post)
+		
 	"#{@weather}"
 
 	if (@weather == 'sunny')
@@ -39,11 +47,4 @@ post '/weather' do
 	else 
 		erb :otherweather
 	end
-	
 end
-
-
-
-	
-
-
